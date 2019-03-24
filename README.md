@@ -2,6 +2,8 @@
 
 This proejct attempts to demo a build that contains `with` statements, which are rejected by Closure Compile. The OP claims the project must use render functions to reproduce the issue. However, I'm not able to reproduce the problem.
 
+https://stackoverflow.com/q/55316239/6277151
+
 ## Steps
 
  1. Download this repo and install dependecies.
