@@ -1,8 +1,13 @@
 <script>
 export default {
   name: "HelloWorld",
+  data() {
+    return {
+      msg: 'hi'
+    }
+  },
   render(h) {
-    return h('div', 'hello world')
+    return h('div', this.msg)
   }
 };
 </script>
