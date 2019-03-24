@@ -1,29 +1,9 @@
 # vue-tmp3
 
-## Project setup
-```
-npm install
-```
+This proejct attempts to demo a build that contains `with` statements, which are rejected by Closure Compile. The OP claims the project must use render functions to reproduce the issue. However, I'm not able to reproduce the problem.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Steps
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+ 1. Download this repo and install dependecies.
+ 2. Run `yarn build` to create a production buid.
+ 3. Observe dist/app.*.js does not contain `with` statements.
