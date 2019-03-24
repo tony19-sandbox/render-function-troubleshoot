@@ -9,8 +9,6 @@
   },
   "dependencies": {
     "core-js": "2",
-    "pug": "^2.0.3",
-    "pug-plain-loader": "^1.0.0",
     "vue": "^2.6.6"
   },
   "devDependencies": {
